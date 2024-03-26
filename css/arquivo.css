@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:nth-child(2) {
+    background-color: #ff5555; /* Tom de vermelho mais claro */
+    color: #fff;
+  }
+
+  button:nth-child(3) {
+    background-color: #cc0000; /* Tom de vermelho mais escuro */
+    color: #fff;
+  }
